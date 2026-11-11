@@ -1,0 +1,8 @@
+model	auroc	auroc_fold_sd	auprc
+BLOSUM62 (no training)	0.664	0.010	0.507
+ESM-2 zero-shot (no training)	0.896	0.009	0.866
+Classic features + GBM	0.746	0.015	0.646
+Classic + ESM-2 score + GBM	0.908	0.009	0.876
+ESM-2 embeddings + logistic regression	0.950	0.005	0.923
+ESM-2 embeddings + GBM	0.952	0.006	0.929
+ESM-2 embeddings + GBM, RANDOM split (leaky)	0.961		0.941
