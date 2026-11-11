@@ -46,5 +46,5 @@ python scripts/evaluate.py --model esm2_t33_650M_UR50D
 
 - ClinVar labels are biased toward well-studied genes and toward variants that earlier tools already called, so scores here may run higher than on truly new variants.
 - Holding out genes doesn't hold out gene families: a close paralog can still sit in the training folds.
-- Only ESM-2 was tried (150M and 650M); the 3B model, ESM-1b and ProtT5 weren't.
+- Only ESM-2 was tried (150M and 650M); the 3B model or other PLMs (ESM-1b, ProtT5, etc.) would be interesting next steps.
 - The numbers aren't a direct comparison with published tools, which use different datasets and splits.
